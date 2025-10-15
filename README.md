@@ -25,15 +25,6 @@ Fraud-Guard focuses on:
 4. **Evaluation** – Confusion matrices, ROC curves, detailed metrics
 5. **Insights** – Trade-offs between Recall and Precision
 
----
-
-## Results
-
-| Model               | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-| ------------------- | -------- | --------- | ------ | -------- | ------- |
-| Logistic Regression | 96.03%   | 3.8%      | 91.8%  | 7.3%     | 0.9760  |
-| Random Forest       | 96.41%   | 4.2%      | 91.8%  | 8.0%     | 0.9777  |
-| XGBoost             | 95.41%   | 3.3%      | 91.8%  | 6.4%     | 0.9749  |
 
 **Key Insight:**
 
@@ -41,17 +32,6 @@ Fraud-Guard focuses on:
 * Low precision (~3–4%) leads to false positives, acceptable in this domain
 * Random Forest achieves the best overall balance
 
----
-
-## Future Improvements
-
-* Hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
-* Advanced resampling techniques (SMOTE, ADASYN)
-* Cost-sensitive learning
-* Feature engineering with domain knowledge
-* Explore anomaly detection models
-
----
 
 ## Tech Stack
 
